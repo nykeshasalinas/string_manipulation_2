@@ -5,10 +5,10 @@ string = input("Input string: ")
 
 for char in string:
     if 'a' <= char <= 'z':
-        # Print "All are upper case" if there is a lowercase letter
-        print("All are upper case")
+        # Print "Not all are upper case" if there is a lowercase letter
+        print("Not all are upper case")
         break
     else:
-        # Print "Not all are upper case" if all characters is on upper case
-        print("Not all are upper case")
+        # Print "All are upper case" if all characters is on upper case
+        print("All are upper case")
         break
