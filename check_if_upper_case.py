@@ -3,5 +3,9 @@
 # Ask user to input string
 string = input("Input string: ")
 
-# Print "True" if all characters is on upper case
-# else print "false"
+for char in string:
+    if 'a' <= char <= 'z':
+        # Print "All are upper case" if there is a lowercase letter
+       
+    else:
+        # Print "Not all are upper case" if all characters is on upper case
