@@ -7,3 +7,10 @@ string = input("Enter the string: ")
 length = int(input("Enter the total length of the string: "))
 
 # Print input in the center
+if len(string) < length:
+    total_padding = length - len(string)
+    left_padding = total_padding // 2
+    right_padding = total_padding - left_padding
+    string = " " * left_padding + string + " " * right_padding
+
+print("Centered string:", repr(string))
