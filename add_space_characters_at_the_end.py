@@ -7,3 +7,7 @@ string = input("Input string: ")
 space = int(input("Input length of space to add: "))
 
 # Print input with desired spaces
+if len(string) < space:
+    string = string + " " * (space - len(string))
+
+print("String after padding:", repr(string))
