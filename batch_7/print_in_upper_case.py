@@ -4,3 +4,11 @@
 string = input("Input string in random letter cases: ")
 
 # Print input in upper case
+uppercase_string = ""
+for char in string:
+    if 'a' <= char <= 'z':
+        uppercase_string += chr(ord(char) - 32)
+    else:
+        uppercase_string += char
+
+print("Input in upper case:", uppercase_string)
