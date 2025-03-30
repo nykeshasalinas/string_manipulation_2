@@ -7,4 +7,4 @@ string = input("Input string with multiple spaces at the end: ")
 while string.endswith(" "):
     string = string[:-1]
 
-print(f"'{string}'")
+print(f"Input: '{string}'")
