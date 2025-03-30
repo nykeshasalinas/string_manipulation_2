@@ -4,3 +4,7 @@
 string = input("Input string with multiple spaces at the end: ")
 
 # Print without the space characters at the end
+while string.endswith(" "):
+    string = string[:-1]
+
+print("Trimmed String:", f"'{string}'")
