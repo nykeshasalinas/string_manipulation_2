@@ -7,3 +7,7 @@ string = input("Input string: ")
 suffix = input("Input suffix to be removed: ")
 
 # Print input without the suffix
+if string.endswith(suffix):
+    print("String after removing prefix:", string.strip(suffix))
+else:
+    print(string)
