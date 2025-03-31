@@ -7,4 +7,12 @@ string = input("Enter the string: ")
 parameter = input("Enter the substring to find: ")
 
 # Check first location of parameter in string
+found = False
+
+for i in range(len(string) - len(parameter) + 1):
+    if string[i:i + len(parameter)] == parameter:
+        print("The first occurrence of the substring is at index:", i)
+        found = True
+        break
+    
 # Print index of the parameter
