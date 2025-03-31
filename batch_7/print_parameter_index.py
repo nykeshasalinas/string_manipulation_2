@@ -11,8 +11,7 @@ found = False
 
 for i in range(len(string) - len(parameter) + 1):
     if string[i:i + len(parameter)] == parameter:
-        print("The first occurrence of the substring is at index:", i)
+        # Print index of the parameter
+        print(f"Parameter index: {i}")
         found = True
         break
-    
-# Print index of the parameter
