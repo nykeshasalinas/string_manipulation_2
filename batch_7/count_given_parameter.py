@@ -17,3 +17,4 @@ while index <= len(string) - len(parameter):
     index += 1
 
 # Print count of the parameter
+print(f"Count of parameter in string: {parameter_count}")
