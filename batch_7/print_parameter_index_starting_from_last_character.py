@@ -1,7 +1,11 @@
 # Prog10. rindex() return the first location of the function parameter in the string starting from the last character. Create a program that do the same functionality without using rindex() function.
 
 # Ask user to input string
+string = input("Input string: ")
+
 # Ask user to input parameter to find
+parameter = input("Input parameter to find: ")
+
 # Check first location of parameter in string starting from last character
 # Print index of the parameter
 # Print "Parameter not found in string" if parameter is not in input string
