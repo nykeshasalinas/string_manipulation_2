@@ -6,5 +6,6 @@ string = input("Input string: ")
 # Ask user to input parameter to count
 parameter = input("Input parameter to count: ")
 
+# Initialize count and start index
 # Count how many times parameter appeared in the string
 # Print count of the parameter
