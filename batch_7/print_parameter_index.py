@@ -15,3 +15,7 @@ for i in range(len(string) - len(parameter) + 1):
         print(f"Parameter index: {i}")
         found = True
         break
+
+# Print "Parameter not found in string" if parameter is not in input string
+if not found:
+    print("Parameter not found in string")
