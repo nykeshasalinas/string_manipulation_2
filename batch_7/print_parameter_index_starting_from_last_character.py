@@ -7,5 +7,12 @@ string = input("Input string: ")
 parameter = input("Input parameter to find: ")
 
 # Check first location of parameter in string starting from last character
-# Print index of the parameter
+found = False
+
+for i in range(len(string) - len(parameter), -1, -1):
+    if string[i:i + len(parameter)] == parameter:
+        print(f"Parameter index starting from last character: {i}")
+        found = True
+        break
+
 # Print "Parameter not found in string" if parameter is not in input string
