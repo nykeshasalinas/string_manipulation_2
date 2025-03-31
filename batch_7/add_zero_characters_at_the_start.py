@@ -4,7 +4,7 @@
 string = input("Input string: ")
 
 # Ask user to input length of string
-length = input("Input length of string: ")
+length = int(input("Input length of string: "))
 
 # Add zero/s at the start of string
 if len(string) < length:
