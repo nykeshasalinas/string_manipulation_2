@@ -11,6 +11,7 @@ found = False
 
 for i in range(len(string) - len(parameter), -1, -1):
     if string[i:i + len(parameter)] == parameter:
+        # Print index of the parameter
         print(f"Parameter index starting from last character: {i}")
         found = True
         break
