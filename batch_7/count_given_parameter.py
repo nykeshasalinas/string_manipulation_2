@@ -7,5 +7,8 @@ string = input("Input string: ")
 parameter = input("Input parameter to count: ")
 
 # Initialize count and start index
+parameter_count = 0
+index = 0
+
 # Count how many times parameter appeared in the string
 # Print count of the parameter
