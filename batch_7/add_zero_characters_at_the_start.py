@@ -10,4 +10,5 @@ length = int(input("Input length of string: "))
 if len(string) < length:
     string = "0" * (length - len(string)) + string
 
-# Print input with zero/s at the beginning
+# Print input with zero/s at the start
+print("Input:", string)
