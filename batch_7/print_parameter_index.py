@@ -4,5 +4,7 @@
 string = input("Enter the string: ")
 
 # Ask user to input parameter to find
+parameter = input("Enter the substring to find: ")
+
 # Check first location of parameter in string
 # Print index of the parameter
