@@ -7,4 +7,7 @@ string = input("Input string: ")
 length = input("Input length of string: ")
 
 # Add zero/s at the start of string
+if len(string) < length:
+    string = "0" * (length - len(string)) + string
+
 # Print input with zero/s at the beginning
